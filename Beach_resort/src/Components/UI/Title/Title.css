@@ -1,0 +1,18 @@
+h1 {
+  font-size: 80px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.border {
+  margin: 0.8rem auto;
+  width: 15%;
+  height: 5px;
+  background-color: rgb(216, 173, 94);
+}
+
+@media (max-width: 892px) {
+  h1 {
+    font-size: 50px;
+  }
+}

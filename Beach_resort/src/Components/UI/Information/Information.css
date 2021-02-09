@@ -1,0 +1,30 @@
+.grid-container-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80%;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+.grid-item-info {
+  text-align: center;
+}
+.grid-item-info p {
+  padding: 0 0.5rem;
+}
+.centre-text {
+  text-align: left;
+  font-size: 0.9rem;
+}
+.centre-text h3 {
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+}
+
+@media (min-width: 1000px) {
+  .grid-container-info {
+    grid-template-columns: 1fr 1fr;
+  }
+}

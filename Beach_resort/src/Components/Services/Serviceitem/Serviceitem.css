@@ -1,0 +1,14 @@
+svg {
+  margin: 1rem auto;
+  color: rgb(190, 152, 81);
+}
+h2 {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}

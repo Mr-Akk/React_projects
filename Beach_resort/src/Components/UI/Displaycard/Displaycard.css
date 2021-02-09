@@ -1,0 +1,20 @@
+.displaycard {
+  background: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  margin: 3rem auto;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(250, 239, 239);
+  text-transform: capitalize;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  text-align: center;
+  color: rgb(250, 239, 239);
+  text-transform: capitalize;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}

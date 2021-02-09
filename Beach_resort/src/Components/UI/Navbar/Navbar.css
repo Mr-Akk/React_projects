@@ -1,0 +1,56 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: cornsilk;
+}
+ul {
+  display: flex;
+  /* background-color: crimson; */
+  width: 30%;
+  justify-content: space-between;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 2px;
+}
+.burger {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+  font-weight: 600;
+  padding: 10px;
+}
+.redhover:hover {
+  color: rgb(235, 225, 225);
+  background: rgb(214, 40, 40);
+}
+@media (max-width: 600px) {
+  .burger {
+    display: block;
+  }
+  .burger:hover {
+    color: red;
+  }
+
+  .Toggler {
+    position: absolute;
+    min-height: 10vh;
+    top: 8%;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    background: cornsilk;
+    justify-content: center;
+  }
+  .TogglerNo {
+    display: none;
+  }
+  li {
+    margin: 10px;
+  }
+}

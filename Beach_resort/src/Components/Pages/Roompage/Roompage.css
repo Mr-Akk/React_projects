@@ -1,0 +1,7 @@
+.bg-img1 {
+  min-height: calc(100vh - 66px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../../images/details-2.jpeg") 50% center / cover no-repeat;
+}
